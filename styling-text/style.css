@@ -1,0 +1,77 @@
+/*styling Text Exercise CSS Stylesheet*/
+
+html{
+	font-size: 16px;   /* 1rem = 16px */
+	
+}
+/* Put global font styles here, so they will be inherited */
+
+/* COLOR CODES */ 
+/*
+#333;	/* dark grey*/
+
+/*
+#AEAEAE;	/*barely gray*/
+
+body{
+	font-family: 'Roboto', Helvetica, Arial, sans-serif;
+	font-size: 100%; /* 1 em =16px */
+	line-height: 1.6;   /*use unitless line-height, written as a decimal */
+	color:#333;			/* does not need to be set if your font color is black */    
+}
+
+strong, b, dt {
+	font-weight:bold;
+	font-weight:700;
+}
+
+h1{
+	font-family:helvetica, ariel, sans-serif;
+	font-size: 2.5em;
+	color:red;
+}
+
+h2, h3, h4{
+	font-family:Georgia, "Times New Roman", serif;
+	color:blue;
+}
+	
+	
+blockquote {
+    font-family: Georgia, "Times New Roman", serif;
+    font-style: italic;
+    font-size: 1.125em;
+    color: gray;    
+}
+ul{
+	color:green;
+	
+}
+a{
+	color:magenta;
+}
+
+p a{
+	color:olive;
+}
+
+ul li a{
+	color:red;
+}
+
+/*#means id*/
+#bob{
+	color:yellow;
+}
+
+/*. means class*/
+.highlight{
+	color:orange;
+
+}
+p.highlight{
+	font-weight:bold;
+}
+li.highlight{
+	font-style:Italic;
+}
