@@ -1,5 +1,62 @@
-/* styling Vienna Caf&eacute; and Roastery CSS Stylesheet */
+/* Vienna Cafe and Roastery CSS Stylesheet */
 
-body{
-    background-color: cream;
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: #F6C883; /* cream */
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-size: 100%;
+    line-height: 1.6;
+    color: #50200B; /* rich brown */
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Playfair Display', Georgia, 'Times New Roman', serif;
+}
+
+h2, h3, h4 {
+    color: #903A13; /* rust */
+}
+
+h1 {
+    font-size: 5em;
+}
+
+h2 {
+    font-size: 2.25em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+h4 {
+    font-size: 1.25em;
+}
+
+address {
+    font-style: normal;
+}
+
+blockquote {
+    font-family: 'Playfair Display', Georgia, 'Times New Roman', serif;
+    font-style: italic;
+    font-size: 1.125em;
+    color: #903A13; /* rust */
+}
+
+p.attributes {
+    font-size: 0.875em;
+}
+
+p.copyright {
+    font-size: 0.825em;
+}
+
+p#tagline {
+    font-size: 1.5em;
+    font-style: italic;
+    color: #903A13; /* rust */
 }
