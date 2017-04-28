@@ -1,0 +1,105 @@
+/* Vienna Cafe and Roastery CSS Stylesheet */
+
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: #F6C883; /* cream */
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-size: 100%;
+    line-height: 1.6;
+    color: #50200B; /* rich brown */
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Playfair Display', Georgia, 'Times New Roman', serif;
+}
+
+h2, h3, h4 {
+    color: #903A13; /* rust */
+}
+
+h1 {
+    font-size: 5em;
+}
+
+h2 {
+    font-size: 2.25em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+h4 {
+    font-size: 1.25em;
+}
+
+a:link, 
+a:visited {
+	color: #903A13; /* rust */
+	text-decoration: underline;
+}
+
+a:hover, 
+a:focus {
+	text-decoration: none;
+}
+
+/* NAVIGATION */
+
+#nav-main{
+	background-color:#903A13; /* rust */
+}
+#nav-main a:link,
+#nav-main a:visited {
+	 color: #F6C883; /* cream */
+	 text-decoration: none;
+}
+
+#nav-main a:hover,
+#nav-main a:focus {
+    color: #F6C883; /* cream */
+	text-decoration: none;
+}
+
+address {
+    font-style: normal;
+}
+#secondary{
+	background-color:#903A13; /* rust */
+	color:#F6C883; /* cream */
+}
+#seconadry a:link,
+#seconadry a:visited {
+	 color:#F6C883; /* cream */
+	 text-decoration: none;
+}
+
+#seconadry a:hover,
+#seconadry a:focus {
+    color:#F6C883; /* cream */
+	text-decoration: none;
+}
+
+blockquote {
+    font-family: 'Playfair Display', Georgia, 'Times New Roman', serif;
+    font-style: italic;
+    font-size: 1.125em;
+    color: #903A13; /* rust */
+}
+
+p.attributes {
+    font-size: 0.875em;
+}
+
+p.copyright {
+    font-size: 0.825em;
+}
+
+p#tagline {
+    font-size: 1.5em;
+    font-style: italic;
+    color: #903A13; /* rust */
+}

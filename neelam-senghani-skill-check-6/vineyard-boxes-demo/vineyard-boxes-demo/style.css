@@ -1,0 +1,196 @@
+/* 
+HTML/CSS Level 1
+In-class Exercise: Page Sections 
+*/
+
+
+/* COLOR CODES
+
+color: #7D0302;  burgundy 
+
+color: #7A5C1C;	 dark gold 
+
+
+*/
+
+
+
+
+/* DEVO ONLY STYLES --  DELETE BEFORE THE PAGE GOES LIVE */
+
+div, header, footer, nav, main, aside {
+	border: 1px solid red;	
+}
+
+
+/* BROWSER RESETS */
+
+body, body * {        /* SELECTS BODY TAGS AND EVERYTHING INSIDE BODY */
+    margin: 0;
+    padding: 0;
+	box-sizing: border-box;		/* declared width = rendered width */
+}
+
+a img {
+   border: none;
+}
+
+body {
+   /* set body and font styles here, NOT on the universal reset! */
+   
+   font-size: blah%;  
+   font-family: blah, blah, blah;  
+   line-height: blah;  
+   color: blah;
+}
+/* END RESETS */
+
+
+/* END DEVO ONLY STYLES */   
+
+
+html {
+	font-size: 16px;	/* sets 1rem = 16px */
+}
+
+body {
+	font-size: 100%;	/* 1em = 16px */
+	font-family: "Myriad Pro", Myriad, Helvetica, Arial, sans-serif; /* always write a font stack with several fallback options */
+	line-height: 1.6; 	/* always use unit-less line-height, value between 1.3 and 1.6 */
+	color: #2E230A; 	/* chocolate brown */
+}
+
+/* TEXT STYLES */
+
+p, ol, ul, dl {
+    margin-bottom: 1em;
+} 
+
+li, dd {
+    margin-bottom: .4em;
+}
+
+/* LISTS INDENTS */
+
+li {	
+    margin-left: 2.25em;	/* always set list indents in ems, so the indent scales with the font size */
+}
+
+dd {
+	margin-left: 1.25em;	/* Adjust as needed. Use ems, so the indent scales as font size changes. */ 
+}
+
+strong, dt{
+	font-weight: bold;
+	font-weight: 700;
+}
+
+
+h1, h2, h3, h4, h5 {
+    font-family: Georgia, "Minion Pro", Minion, "Times New Roman", serif;
+}
+
+h3 {
+    color: #7D0302;		/* burgundy */
+}
+
+
+/* LINK STYLES */
+
+/* Global Links */
+
+a:link,
+a:visited {
+		color: #7D0302; /* burgundy */
+		text-decoration: underline;
+}
+
+a:hover,
+a:focus {
+		text-decoration: none;
+}
+
+/* MISC LINKS */
+
+h1 a:link,
+h1 a:visited {
+	text-decoration: none;
+}
+
+h1 a:hover,
+h1 a:focus {
+	color: #7A5C1C;	 /* dark gold */
+}
+
+
+/* NAVIGATION */
+
+/* PURCHASE NAV */
+
+#nav-purchase a:link,
+#nav-purchase a:visited {
+	text-decoration: none;
+}
+
+#nav-purchase a:hover,
+#nav-purchase a:focus {
+	color: #7A5C1C;	/* dark gold */
+	text-decoration: underline;
+}
+
+
+/* LAYOUT STYLES */
+
+#wrapper {
+	max-width: 940px;
+	width: 96%;
+	margin: auto;
+}
+
+#header {
+	/* main site header styles go here */
+}
+
+#nav-main {
+	/* nav-main styles go here */
+}
+
+#nav-purchase {
+
+}
+
+
+
+#content {
+	/* main content styles go here */
+}
+
+#secondary {
+	/* always use an id selector for asides */
+}
+
+
+#footer {
+	/* main site footer styles go here */
+}
+
+#nav-foot {
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
