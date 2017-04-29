@@ -49,6 +49,7 @@ a:focus {
 
 h1 a:link,
 h1 a:visited {
+    color: #50200B; /* rich brown */
     text-decoration: none;
 }
 
