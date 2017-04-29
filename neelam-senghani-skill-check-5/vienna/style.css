@@ -36,51 +36,61 @@ h4 {
     font-size: 1.25em;
 }
 
-a:link, 
+a:link,
 a:visited {
-	color: #903A13; /* rust */
-	text-decoration: underline;
+    color: #903A13; /* rust */
+    text-decoration: underline;
 }
 
-a:hover, 
+a:hover,
 a:focus {
-	text-decoration: none;
+    text-decoration: none;
+}
+
+h1 a:link,
+h1 a:visited {
+    text-decoration: none;
+}
+
+h1 a:hover,
+h1 a:focus {
+    color:#903A13; /* rust */
 }
 
 /* NAVIGATION */
 
 #nav-main{
-	background-color:#903A13; /* rust */
+    background-color:#903A13; /* rust */
 }
+
 #nav-main a:link,
 #nav-main a:visited {
-	 color: #F6C883; /* cream */
-	 text-decoration: none;
+     color: #F6C883; /* cream */
+     text-decoration: none;
 }
 
 #nav-main a:hover,
 #nav-main a:focus {
-    color: #F6C883; /* cream */
-	text-decoration: none;
+    text-decoration: underline;
 }
 
 address {
     font-style: normal;
 }
+
 #secondary{
-	background-color:#903A13; /* rust */
-	color:#F6C883; /* cream */
-}
-#seconadry a:link,
-#seconadry a:visited {
-	 color:#F6C883; /* cream */
-	 text-decoration: none;
+    background-color:#903A13; /* rust */
+    color:#F6C883; /* cream */
 }
 
-#seconadry a:hover,
-#seconadry a:focus {
+#secondary h4 {
+    background-color:#903A13; /* rust */
     color:#F6C883; /* cream */
-	text-decoration: none;
+}
+
+#secondary a:link,
+#secondary a:visited {
+    color:#F6C883; /* cream */
 }
 
 blockquote {
@@ -102,4 +112,14 @@ p#tagline {
     font-size: 1.5em;
     font-style: italic;
     color: #903A13; /* rust */
+}
+
+#footer {
+    background-color:#903A13; /* rust */
+    color:#F6C883; /* cream */
+}
+
+#footer a:link,
+#footer a:visited {
+    color:#F6C883; /* cream */
 }
