@@ -6,10 +6,11 @@ In-class Exercise: Page Sections
 
 /* COLOR CODES
 
-color: #7D0302;  burgundy 
+color: #7D0302;  /*burgundy */
 
-color: #7A5C1C;	 dark gold 
+color: #7A5C1C;	 /* dark gold */
 
+color: #2E230A; 	/* chocolate brown */
 
 */
 
@@ -19,7 +20,7 @@ color: #7A5C1C;	 dark gold
 /* DEVO ONLY STYLES --  DELETE BEFORE THE PAGE GOES LIVE */
 
 div, header, footer, nav, main, aside {
-	border: 1px solid red;	
+	/* border: 1px solid red; */	
 }
 
 
@@ -58,6 +59,7 @@ body {
 	font-family: "Myriad Pro", Myriad, Helvetica, Arial, sans-serif; /* always write a font stack with several fallback options */
 	line-height: 1.6; 	/* always use unit-less line-height, value between 1.3 and 1.6 */
 	color: #2E230A; 	/* chocolate brown */
+	background-color: #2E230A; 	/* chocolate brown */
 }
 
 /* TEXT STYLES */
@@ -125,6 +127,15 @@ h1 a:focus {
 
 /* NAVIGATION */
 
+
+/* NAV LIST RESETS */ 
+
+nav li{
+	List-style:none;  /* remove bullets */
+	margin-left:0;	 /*reset list indents */
+	Padding-left:0;	 /* just incase my indents use padding */
+}
+
 /* PURCHASE NAV */
 
 #nav-purchase a:link,
@@ -144,7 +155,7 @@ h1 a:focus {
 #wrapper {
 	max-width: 940px;
 	width: 96%;
-	margin: auto;
+	margin:  0 auto 1.25em;		/* T LR B /*
 }
 
 #header {
@@ -159,7 +170,10 @@ h1 a:focus {
 
 }
 
-
+#middle{
+	background-color: #fff;
+	padding: 1.25em;
+}
 
 #content {
 	/* main content styles go here */
@@ -171,7 +185,10 @@ h1 a:focus {
 
 
 #footer {
-	/* main site footer styles go here */
+	background-color: #FFF;
+    padding: 1.25em; 
+	border-top: 4px solid #7A5C1C;	/* dark gold */
+	border-radius: 0 0 1.25em 1.25em;	/* TL TR BR BL */    
 }
 
 #nav-foot {

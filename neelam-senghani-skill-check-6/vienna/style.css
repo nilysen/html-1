@@ -1,0 +1,160 @@
+/* Vienna Cafe and Roastery CSS Stylesheet */
+
+html {
+    font-size: 16px;
+}
+
+/* BROWSER RESETS */
+
+body, body * {        /* SELECTS BODY TAGS AND EVERYTHING INSIDE BODY */
+    margin: 0;
+    padding: 0;
+	box-sizing: border-box;
+}
+a img{
+	border:none;
+}
+
+/* END RESETS */
+
+body {
+    background-color: #F6C883; /* cream */
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-size: 100%;
+    line-height: 1.6;
+    color: #50200B; /* rich brown */
+}
+
+/* TEXT STYLES */
+
+p, ol, ul, dl {
+    margin-bottom: 1em;
+} 
+
+li, dd {
+    margin-bottom: .4em;
+}
+
+/* LISTS INDENTS */
+
+li {	
+    margin-left: 2.25em;	/* always set list indents in ems, so the indent scales with the font size */
+}
+
+dd {
+	margin-left: 1.25em;	/* Adjust as needed. Use ems, so the indent scales as font size changes. */ 
+}
+
+
+h1, h2, h3, h4 {
+    font-family: 'Playfair Display', Georgia, 'Times New Roman', serif;
+}
+
+h2, h3, h4 {
+    color: #903A13; /* rust */
+}
+
+h1 {
+    font-size: 5em;
+}
+
+h2 {
+    font-size: 2.25em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+h4 {
+    font-size: 1.25em;
+}
+
+a:link,
+a:visited {
+    color: #903A13; /* rust */
+    text-decoration: underline;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+h1 a:link,
+h1 a:visited {
+    color: #50200B; /* rich brown */
+    text-decoration: none;
+}
+
+h1 a:hover,
+h1 a:focus {
+    color:#903A13; /* rust */
+}
+
+/* NAVIGATION */
+
+#nav-main{
+    background-color:#903A13; /* rust */
+}
+
+#nav-main a:link,
+#nav-main a:visited {
+     color: #F6C883; /* cream */
+     text-decoration: none;
+}
+
+#nav-main a:hover,
+#nav-main a:focus {
+    text-decoration: underline;
+}
+
+address {
+    font-style: normal;
+}
+
+#secondary{
+    background-color:#903A13; /* rust */
+    color:#F6C883; /* cream */
+}
+
+#secondary h4 {
+    background-color:#903A13; /* rust */
+    color:#F6C883; /* cream */
+}
+
+#secondary a:link,
+#secondary a:visited {
+    color:#F6C883; /* cream */
+}
+
+blockquote {
+    font-family: 'Playfair Display', Georgia, 'Times New Roman', serif;
+    font-style: italic;
+    font-size: 1.125em;
+    color: #903A13; /* rust */
+}
+
+p.attributes {
+    font-size: 0.875em;
+}
+
+p.copyright {
+    font-size: 0.825em;
+}
+
+p#tagline {
+    font-size: 1.5em;
+    font-style: italic;
+    color: #903A13; /* rust */
+}
+
+#footer {
+    background-color:#903A13; /* rust */
+    color:#F6C883; /* cream */
+}
+
+#footer a:link,
+#footer a:visited {
+    color:#F6C883; /* cream */
+}
