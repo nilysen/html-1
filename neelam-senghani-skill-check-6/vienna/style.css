@@ -9,10 +9,11 @@ html {
 body, body * {        /* SELECTS BODY TAGS AND EVERYTHING INSIDE BODY */
     margin: 0;
     padding: 0;
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
+
 a img{
-	border:none;
+    border: none;
 }
 
 /* END RESETS */
@@ -29,20 +30,24 @@ body {
 
 p, ol, ul, dl {
     margin-bottom: 1em;
-} 
+}
 
 li, dd {
     margin-bottom: .4em;
 }
 
-/* LISTS INDENTS */
+strong, dt {
+    font-weight: bold;
+}
 
-li {	
+/* GLOBAL ELEMS */
+
+li {
     margin-left: 2.25em;	/* always set list indents in ems, so the indent scales with the font size */
 }
 
 dd {
-	margin-left: 1.25em;	/* Adjust as needed. Use ems, so the indent scales as font size changes. */ 
+    margin-left: 1.25em;	/* Adjust as needed. Use ems, so the indent scales as font size changes. */
 }
 
 
@@ -56,6 +61,7 @@ h2, h3, h4 {
 
 h1 {
     font-size: 5em;
+    line-height: 1.2em;
 }
 
 h2 {
@@ -92,6 +98,10 @@ h1 a:focus {
     color:#903A13; /* rust */
 }
 
+img {
+    border-radius: 25px;
+}
+
 /* NAVIGATION */
 
 #nav-main{
@@ -111,6 +121,7 @@ h1 a:focus {
 
 address {
     font-style: normal;
+    margin-bottom: 1em;
 }
 
 #secondary{
@@ -133,6 +144,10 @@ blockquote {
     font-style: italic;
     font-size: 1.125em;
     color: #903A13; /* rust */
+    border-top: 2px solid #903A13;
+    border-bottom: 2px solid #903A13;
+    padding: 1em 2em;
+    margin: 2em 0;
 }
 
 p.attributes {
