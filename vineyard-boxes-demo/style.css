@@ -155,7 +155,7 @@ nav li{
 #wrapper {
 	max-width: 940px;
 	width: 96%;
-	margin:  0 auto 1.25em;		/* T LR B /*
+	margin: .65em .65em .65em 0;	/* TRBL */
 }
 
 #header {

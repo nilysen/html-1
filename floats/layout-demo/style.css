@@ -6,9 +6,11 @@ In-class Exercise: Horizontal Navigation
 
 /* COLOR CODES
 
-color: #7D0302;  burgundy 
+color: #7D0302;  /* burgundy */
 
-color: #7A5C1C;	 dark gold 
+color: #7A5C1C;	 /* dark gold  */
+
+color: #2E230A; 	/* chocolate brown */
 
 
 */
@@ -146,20 +148,55 @@ nav li {
 #middle {
 	background-color: #FFF;
 	padding: 1.25em;
+	overflow: hidden;	/* pro it open to enclose floated elements */
 }
 
-#nav-purchase {
 
+#nav-purchase {
+	 width: 210px;
+	 float: left;
+	 margin-right: 1.25em;
+}
+
+
+/* FOOTER NAV*/
+
+
+#nav-foot li{
+	float: left;
+	border-right: 1px solid #7D0302;	/*burgundy*/
+	line-height: 1; /* unit-less line-height */
+	padding: 0 .625em;	/* 10px */  /*tb lr*/
+	
+	
+}
+
+#nav-foot li. first{
+	padding-left: 0;
+}
+
+#nav-foot li. last{
+	border-right: 0;
+}	
+	
+
+#footer p {
+	clear: both;	/*  clear the floated list items*/
 }
 
 
 
 #content {
-	/* main content styles go here */
+	width: 485px;
+	float: left;
+	border-left: 1px solid #2E230A; 	/* chocolate brown */
+	border-right: 1px solid #2E230A; 	/* chocolate brown */
+	padding: 0 1.25em;		/* 0tb  1.25rl*/
 }
 
 #secondary {
-	/* always use an id selector for asides */
+	 width: 165px;
+	 float: right;
 }
 
 
@@ -168,11 +205,9 @@ nav li {
 	padding: 1.25em;
 	border-top: 4px solid #7A5C1C;	/* gold */
 	border-radius: 0 0 1.25em 1.25em;
+	clear: both;	/* start beneath the longest floated element about it*/
 }
 
-#nav-foot {
-	
-}
 
 
 

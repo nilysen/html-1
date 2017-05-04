@@ -1,5 +1,6 @@
 /* Vienna Cafe and Roastery CSS Stylesheet */
 
+/* GLOBAL TEXT STYLES */
 html {
     font-size: 16px;
 }
@@ -19,11 +20,15 @@ a img{
 /* END RESETS */
 
 body {
-    background-color: #F6C883; /* cream */
+    background-color:#50200B; /* rich brown */
     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
     font-size: 100%;
     line-height: 1.6;
     color: #50200B; /* rich brown */
+	background-image: url(images/interior-2700.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
 }
 
 /* TEXT STYLES */
@@ -37,7 +42,8 @@ li, dd {
 }
 
 strong, dt {
-    font-weight: bold;
+    font-weight: bold;    	/* for fallback fonts */
+    font-weight: 700;
 }
 
 /* GLOBAL ELEMS */
@@ -61,7 +67,7 @@ h2, h3, h4 {
 
 h1 {
     font-size: 5em;
-    line-height: 1.2em;
+    line-height: 1.2;
 }
 
 h2 {
@@ -106,6 +112,20 @@ img {
 
 #nav-main{
     background-color:#903A13; /* rust */
+	padding: 1.5em 10%;
+
+}
+
+#nav-main li{
+	list-style: none;
+	margin-left: 0;
+	float: left;
+	margin-right: 2.7em;
+	overflow: hidden;
+}
+
+#nav-foot li.last{
+	margin-right: 0;
 }
 
 #nav-main a:link,
@@ -124,13 +144,30 @@ address {
     margin-bottom: 1em;
 }
 
+#middle{
+	min-width: 730px;
+	width: 80%;
+
+}
+
+#container{
+	background-color: rgba(246, 200, 131, .75); /* 75% opacity cream color */
+	width: 500px;
+	padding: 1.25em;
+	float: left;
+}
+
+
 #secondary{
-    background-color:#903A13; /* rust */
+    background-color:#50200B; /* rich brown */
     color:#F6C883; /* cream */
+	float: right;
+	width: 210px;
+	padding: 1.25em;
 }
 
 #secondary h4 {
-    background-color:#903A13; /* rust */
+    background-color:#50200B; /* rich brown */
     color:#F6C883; /* cream */
 }
 
@@ -167,9 +204,17 @@ p#tagline {
 #footer {
     background-color:#903A13; /* rust */
     color:#F6C883; /* cream */
+	clear: both;
+	padding: 1.5em 10%;
 }
 
 #footer a:link,
 #footer a:visited {
     color:#F6C883; /* cream */
+}
+
+/* HOME PAGE STYLES */
+
+.home .container .aside{
+    float: none;
 }

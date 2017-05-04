@@ -10,31 +10,32 @@
     <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
     <![endif]-->
 
+
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400i,700" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i" rel="stylesheet" />
     <link href="style.css" rel="stylesheet" />
 </head>
 
-<body>
+<body class="home">
     <nav id="nav-main">
         <ul>
             <li><a href="about.html">About Us</a></li>
             <li><a href="cafe.html">Cafe</a></li>
             <li><a href="our-coffees.html">Our Coffees</a></li>
             <li><a href="brewing.html">Brewing</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li class="last"><a href="#contact">Contact</a></li>
         </ul>
     </nav>
+    <div id="middle">
+        <div id="container">
+            <header id="header">
+                <h1><a href="index.html">VIENNA</a></h1>
 
-    <div id="container">
-        <header id="header">
-            <h1><a href="index.html">VIENNA</a></h1>
+                <p id="tagline">cafe &amp; roastery </p>
+            </header>
 
-            <p id="tagline">cafe &amp; roastery </p>
-        </header>
+            <main id="content">
 
-        <main id="content">
-         
                 <img src="images/about-460.jpg" alt="coffee mugs on a coffee table" width="460" height="306" />
 
                 <h2>About Us</h2>
@@ -52,32 +53,37 @@
                         <br/> on the Viennese coffee house
                     </p>
                 </blockquote>
-        </main>
+            </main>
+        </div>
+        <!-- closing container-->
+
+        <aside id="secondary">
+            <h4 id="hours">Hours</h4>
+
+            <p>Mon-Fri 6am - 7pm<br/> Sat-Sun 8am - 9pm</p>
+
+            <h4 id="location">Location</h4>
+
+            <address>253 11th Ave S<br/> Clayton, OR 97929</address>
+
+            <h4 id="contact">Contact</h4>
+
+            <address>
+                <a href="mailto:info@viennacafe.com">info@viennacafe.com</a>
+                <br/>
+                <a href="tel:971-555-1234">971-555-1234</a>
+            </address>
+        </aside>
+        <!-- end #secondary sidebar -->
     </div>
-
-    <aside id="secondary">
-        <h4 id="hours">Hours</h4>
-
-        <p>Mon-Fri 6am - 7pm<br/> Sat-Sun 8am - 9pm</p>
-
-        <h4 id="location">Location</h4>
-
-        <address>253 11th Ave S<br/> Clayton, OR 97929</address>
-
-        <h4 id="contact">Contact</h4>
-
-        <address>
-            <a href="mailto:info@viennacafe.com">info@viennacafe.com</a>
-            <br/>
-            <a href="tel:971-555-1234">971-555-1234</a>
-        </address>
-    </aside>
+    <!-- closing #middle-->
 
     <footer id="footer">
-        <hr/>
+
         <p class="copyright">
-            &copy; 2016 - 2017 Vienna Cafe &bull; Site design by <a href="http://ravengildea.net/" target="_blank">Raven Gildea</a> &bull; All Right Reserved
+            &copy; 2016 - 2017 Vienna Cafe &bull; Site design by <a href="http://ravengildea.net/" target="_blank">Raven Gildea</a>            &bull; All Right Reserved
         </p>
     </footer>
 </body>
+
 </html>
