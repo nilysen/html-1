@@ -215,6 +215,29 @@ p#tagline {
 
 /* HOME PAGE STYLES */
 
-.home .container .aside{
+.home #secondary {
     float: none;
+    padding: 1.5em 10%;
+    background-color: #903A13; /* rust */
+    width:100%;
+    overflow: hidden;
+}
+
+.home #container {
+    margin-left: 10%;
+}
+
+.home .copyright {
+    border-top: 2px solid #F6C883; /* cream */
+    padding: 1.5em;
+}
+
+.home .widget {
+    width: 30%;
+    margin-right: 2%;
+    float: left;
+}
+
+.home #secondary h4 {
+    background: none;
 }
